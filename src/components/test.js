@@ -12,6 +12,7 @@ import axios from 'axios'
 function TestComponent() {
   const [data, setData] = useState([]);
 
+  /*
   useEffect(() => {
     axios.get("http://localhost:3001/api")
   .then((res)=>{
@@ -22,10 +23,11 @@ function TestComponent() {
       console.log(err);
   });
   }, []);
+*/ 
 
   return (
     <div>
-      {data}
+      {"Test Component"}
     </div>
   );
 }

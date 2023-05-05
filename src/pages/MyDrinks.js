@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export function MyDrinks() {
-    return (
-      <>
-      {"MyDrinks Page"}
-      </>
-    );
-  }
-  
-  export default MyDrinks;
+  return <>{"MyDrinks Page"}</>;
+}
+
+export default MyDrinks;

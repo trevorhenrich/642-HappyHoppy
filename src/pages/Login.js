@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export function Login() {
-    return (
-      <>
-      {"Login Page"}
-      </>
-    );
-  }
-  
-  export default Login;
+  return <>{"Login Page"}</>;
+}
+
+export default Login;

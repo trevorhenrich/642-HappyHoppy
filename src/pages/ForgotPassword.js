@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export function ForgotPassword() {
-    return (
-      <>
-      {"Forgot Password Page"}
-      </>
-    );
-  }
-  
-  export default ForgotPassword;
+  return <>{"Forgot Password Page"}</>;
+}
+
+export default ForgotPassword;

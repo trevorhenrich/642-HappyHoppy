@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export function Payment() {
-    return (
-      <>
-      {"Payment Page"}
-      </>
-    );
-  }
-  
-  export default Payment;
+  return <>{"Payment Page"}</>;
+}
+
+export default Payment;

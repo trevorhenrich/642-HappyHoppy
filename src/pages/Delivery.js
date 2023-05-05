@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export function Delivery() {
-    return (
-      <>
-      {"Delivery Page"}
-      </>
-    );
-  }
-  
-  export default Delivery;
+  return <>{"Delivery Page"}</>;
+}
+
+export default Delivery;

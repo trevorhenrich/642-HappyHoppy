@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export function Signup() {
-    return (
-      <>
-      {"Signup Page"}
-      </>
-    );
-  }
-  
-  export default Signup;
+  return <>{"Signup Page"}</>;
+}
+
+export default Signup;

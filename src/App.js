@@ -10,6 +10,7 @@ import { MyDrinks } from "./pages/MyDrinks";
 import { DrinkProfile } from "./pages/DrinkProfile";
 import { Payment } from "./pages/Payment";
 import { Delivery } from "./pages/Delivery";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route path="/Payment" element={<Payment />} />
         <Route path="/Delivery" element={<Delivery />} />
       </Routes>
-      <TestComponent />
+      <Navbar />
     </>
   );
 }

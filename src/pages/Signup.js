@@ -9,7 +9,6 @@ export function Signup() {
         Happy Hoppy
     </div>
     <div className = "signup-box">
-      
       <div>
         <label> Full Name: </label>
         <input placeholder="Name..."></input>

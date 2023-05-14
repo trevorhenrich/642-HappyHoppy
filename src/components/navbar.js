@@ -19,9 +19,9 @@ export default function Navbar() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Home" icon={<HomeIcon />} />
-        <BottomNavigationAction label="My Drinks" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Settings" icon={<AccountCircleIcon />} />
+        <BottomNavigationAction href='/' label="Home" icon={<HomeIcon />} />
+        <BottomNavigationAction href='/mydrinks' label="My Drinks" icon={<FavoriteIcon />} />
+        <BottomNavigationAction href='/profilesettings' label="Settings" icon={<AccountCircleIcon />} />
       </BottomNavigation>
     </Box>
   );

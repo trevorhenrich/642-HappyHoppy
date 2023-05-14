@@ -12,19 +12,18 @@ const [value, setValue] = React.useState(0);
 const navigate = useNavigate();
 
   return (
-    <Box sx={{ width: 500,  position: "fixed",
-      bottom: 0}}>
-<BottomNavigation
-showLabels
-value={value}
-onChange={(event, newValue) => {
-  setValue(newValue);
+    <Box sx={{ width: 500, position: "fixed", bottom: 0}}>
+    <BottomNavigation
+      showLabels
+      value={value}
+      onChange={(event, newValue) => {
+        setValue(newValue);
 }}
 >
-<BottomNavigationAction onClick={()=>navigate("/")} label="Home" icon={<HomeIcon />} />
-<BottomNavigationAction onClick={()=>navigate("/mydrinks")} label="My Drinks" icon={<FavoriteIcon />} />
-<BottomNavigationAction onClick={()=>navigate("/profilesettings")} label="Settings" icon={<AccountCircleIcon />} />
-</BottomNavigation>
+      <BottomNavigationAction onClick={()=>navigate("/")} label="Home" icon={<HomeIcon />} />
+      <BottomNavigationAction onClick={()=>navigate("/mydrinks")} label="My Drinks" icon={<FavoriteIcon />} />
+      <BottomNavigationAction onClick={()=>navigate("/profilesettings")} label="Settings" icon={<AccountCircleIcon />} />
+    </BottomNavigation>
     </Box>
   );
 }

@@ -26,40 +26,118 @@ export function MyDrinks() {
               <Grid item>
                 <LocalBarIcon fontSize="large"/>
               </Grid>
-
             </Grid>
           </Box>
-          <Box>
-          <Grid container 
-            direction="row"
-            alignItems="left"
-            justifyContent="center"
-            sx={{ Color : "red"}}>
-              <Grid item padding={5}>
+          <Box> 
+          <Grid container direction="row" alignItems="left"justifyContent="center">
+              <Grid item padding={2}>
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
-                <div>Title</div>
-                <div>Location</div>
-                <div>Description</div>
-              </Grid>
-              <Grid item padding={5}>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>  
+              <Grid item padding={2}>
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
-                <div>Title</div>
-                <div>Location</div>
-                <div>Description</div>
-              </Grid>
-              <Grid item padding={5}>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
-                <div>Title</div>
-                <div>Location</div>
-                <div>Description</div>
-              </Grid>
-              <Grid item padding={5}>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
-                <div>Title</div>
-                <div>Location</div>
-                <div>Description</div>
-              </Grid>
-      
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
+                <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
+                <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
+                <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
+                <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>   
+              <Grid item padding={2}>
+                <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
+                <div classname="title" style={{fontSize : "x-large"}}>
+                  <strong>Title</strong>
+                </div>
+                <div classname="location" style={{fontSize : "small"}}>- 
+                  <a href = "https://en.wikipedia.org/wiki/Alcoholics_Anonymous">Location</a>
+                </div>
+                <div classname="desc" style={{fontSize : "x-small"}}>
+                  <i>Description</i>
+                </div>
+              </Grid>            
           </Grid>
           </Box>
   </>;

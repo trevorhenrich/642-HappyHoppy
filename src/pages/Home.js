@@ -16,14 +16,11 @@ export function Home() {
             direction="row"
             alignItems="center"
             justifyContent="center">
-
               <Grid item>
                 <LocationOnIcon fontSize="large"/>
               </Grid>
-
               <Grid item>
                 <TextField label="Search">
-                  
                 </TextField>
               </Grid>
 
@@ -56,7 +53,6 @@ export function Home() {
           direction="row"
           alignItems="center"
           justifyContent="center">
-
 
             <Grid item
             padding={5}>

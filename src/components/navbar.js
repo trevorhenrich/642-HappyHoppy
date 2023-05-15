@@ -24,6 +24,7 @@ const navigate = useNavigate();
       <BottomNavigationAction onClick={()=>navigate("/mydrinks")} label="My Drinks" icon={<FavoriteIcon />} />
       <BottomNavigationAction onClick={()=>navigate("/profilesettings")} label="Settings" icon={<AccountCircleIcon />} />
     </BottomNavigation>
+
     </Box>
   );
 }

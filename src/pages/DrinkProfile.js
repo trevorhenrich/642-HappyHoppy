@@ -1,7 +1,9 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
 export function DrinkProfile() {
-  return <>{"Drink Profile Page"}</>;
+  const {id} = useParams();
+  return <>{id}</>;
 }
 
 export default DrinkProfile;

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import {Box, Card, Grid, TextField, Typography} from "@mui/material";
-
-
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import TuneIcon from '@mui/icons-material/Tune';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';

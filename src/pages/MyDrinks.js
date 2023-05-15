@@ -1,36 +1,22 @@
 import React from "react";
-import {Card, Grid, TextField, Typography} from "@mui/material";
-import { Box } from "@mui/system";
+import {Box, Card, Grid, TextField, Typography} from "@mui/material";
 
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import TuneIcon from '@mui/icons-material/Tune';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { useNavigate } from "react-router-dom";
+
+import DrinksHeader from "../components/drinksheader";
+import CardActionArea from '@mui/material/CardActionArea';
 
 export function MyDrinks() {
+  const navigate = useNavigate();
   return <>
-          <Box paddingTop={2} >
-            <Grid container direction="row" 
-            alignItems="center"
-            justifyContent="center">
-
-              <Grid item xs={6}> 
-                <ArrowBackIcon fontSize="large"/>
-              </Grid>
-              <Grid item>
-
-              </Grid>
-
-              <Grid item> 
-                <TuneIcon fontSize="large"/>
-              </Grid>
-
-            </Grid>
-          </Box>
+        <DrinksHeader/>
 
           <Box> 
           <Grid container direction="column" alignItems="left" justifyContent="center">
               <Grid item padding={2}>
-                <Card>
+                <Card> 
+                  <CardActionArea onClick={()=>navigate("/drinkprofile/1")}>
+
                 <Grid container direction="row" alignItems="left" >
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
                 <div classname="title" style={{fontSize : "x-large"}}>
@@ -42,6 +28,7 @@ export function MyDrinks() {
                   <Typography>Description</Typography>
                 </div>
 
+                  </CardActionArea>
                 </Card>
               </Grid>
           </Grid>
@@ -49,7 +36,9 @@ export function MyDrinks() {
 
           <Grid container direction="column" alignItems="left" justifyContent="center">
               <Grid item padding={2}>
-                <Card>
+              <Card> 
+                  <CardActionArea onClick={()=>navigate("/drinkprofile/2")}>
+
                 <Grid container direction="row" alignItems="left" >
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
                 <div classname="title" style={{fontSize : "x-large"}}>
@@ -61,13 +50,16 @@ export function MyDrinks() {
                   <Typography>Description</Typography>
                 </div>
 
+                  </CardActionArea>
                 </Card>
               </Grid>
           </Grid>
 
           <Grid container direction="column" alignItems="left" justifyContent="center">
               <Grid item padding={2}>
-                <Card>
+              <Card> 
+                  <CardActionArea onClick={()=>navigate("/drinkprofile/3")}>
+
                 <Grid container direction="row" alignItems="left" >
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
                 <div classname="title" style={{fontSize : "x-large"}}>
@@ -79,13 +71,16 @@ export function MyDrinks() {
                   <Typography>Description</Typography>
                 </div>
 
+                  </CardActionArea>
                 </Card>
               </Grid>
           </Grid>
 
           <Grid container direction="column" alignItems="left" justifyContent="center">
               <Grid item padding={2}>
-                <Card>
+              <Card> 
+                  <CardActionArea onClick={()=>navigate("/drinkprofile/4")}>
+
                 <Grid container direction="row" alignItems="left" >
                 <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
                 <div classname="title" style={{fontSize : "x-large"}}>
@@ -97,6 +92,7 @@ export function MyDrinks() {
                   <Typography>Description</Typography>
                 </div>
 
+                  </CardActionArea>
                 </Card>
               </Grid>
           </Grid>

@@ -1,4 +1,3 @@
-import TestComponent from "./components/test";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
@@ -38,7 +37,7 @@ function App() {
           <Route path="/ForgotPassword" element={<ForgotPassword />} />
           <Route path="/ProfileSettings" element={<ProfileSettings />} />
           <Route path="/MyDrinks" element={<MyDrinks />} />
-          <Route path="/DrinkProfile" element={<DrinkProfile />} />
+          <Route path="/DrinkProfile/:id" element={<DrinkProfile />} />
           <Route path="/Payment" element={<Payment />} />
           <Route path="/Delivery" element={<Delivery />} />
         </Routes>

@@ -12,7 +12,7 @@ const [value, setValue] = React.useState(0);
 const navigate = useNavigate();
 
   return (
-    <Box sx={{ width: 500, position: "fixed", bottom: 0}}>
+    <Box sx={{ width: 500, position: "fixed", bottom: 0}} >
     <BottomNavigation
       showLabels
       value={value}
@@ -22,7 +22,7 @@ const navigate = useNavigate();
 >
       <BottomNavigationAction onClick={()=>navigate("/")} label="Home" icon={<HomeIcon />} />
       <BottomNavigationAction onClick={()=>navigate("/mydrinks")} label="My Drinks" icon={<FavoriteIcon />} />
-      <BottomNavigationAction onClick={()=>navigate("/profilesettings")} label="Settings" icon={<AccountCircleIcon />} />
+      <BottomNavigationAction onClick={()=>navigate("/login")} label="Account" icon={<AccountCircleIcon />} />
     </BottomNavigation>
 
     </Box>

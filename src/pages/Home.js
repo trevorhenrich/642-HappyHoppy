@@ -1,13 +1,16 @@
 import React from "react";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import {CardMedia, Grid, IconButton, TextField, Typography} from "@mui/material";
+import {CardMedia, Card, Grid, IconButton, TextField, Typography} from "@mui/material";
 import { Box } from "@mui/system";
 import LocalBarIcon from '@mui/icons-material/LocalBar';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CancelIcon from '@mui/icons-material/Cancel';
+import CardActionArea from '@mui/material/CardActionArea';
+import { useNavigate } from "react-router-dom";
 
 
 export function Home() {
+  const navigate = useNavigate();
   return <>
 
           <Box paddingTop={2}>
@@ -17,7 +20,9 @@ export function Home() {
             alignItems="center"
             justifyContent="center">
               <Grid item>
-                <LocationOnIcon fontSize="large"/>
+                <Card variant="outlined">
+                <LocationOnIcon fontSize="large" onClick={()=>navigate("/location")}/>
+                </Card>
               </Grid>
               <Grid item>
                 <TextField label="Search">
@@ -25,7 +30,9 @@ export function Home() {
               </Grid>
 
               <Grid item>
-                <LocalBarIcon fontSize="large"/>
+                <Card variant="outlined">
+                <LocalBarIcon fontSize="large" onClick={()=>navigate("/mydrinks")}/>
+                </Card>
               </Grid>
 
             </Grid>
@@ -49,19 +56,22 @@ export function Home() {
           </Grid>
           
           <Grid container 
-          paddingTop={10}
           direction="row"
           alignItems="center"
           justifyContent="center">
 
             <Grid item
             padding={5}>
-                <CancelIcon fontSize="large"/>
+                <Card>
+                <CancelIcon fontSize="large" onClick={()=>navigate("/")}/>
+                </Card>
             </Grid>
 
             <Grid item
             padding={5}>
-            <CheckCircleIcon fontSize="large"/>
+            <Card>
+            <CheckCircleIcon fontSize="large" onClick={()=>navigate("/mydrinks")}/>
+            </Card>
             </Grid>
           </Grid>
           </Box>

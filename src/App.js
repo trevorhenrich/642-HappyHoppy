@@ -5,6 +5,7 @@ import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
 import { ForgotPassword } from "./pages/ForgotPassword";
 import { ProfileSettings } from "./pages/ProfileSettings";
+import { Location } from "./pages/Location";  
 import { MyDrinks } from "./pages/MyDrinks";
 import { DrinkProfile } from "./pages/DrinkProfile";
 import { Payment } from "./pages/Payment";
@@ -33,6 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/Location" element={<Location />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/ForgotPassword" element={<ForgotPassword />} />
           <Route path="/ProfileSettings" element={<ProfileSettings />} />

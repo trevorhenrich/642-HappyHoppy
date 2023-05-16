@@ -18,7 +18,8 @@ export function Login() {
           <input type={'password'} placeholder="Password..."></input>
         </div>
         <div>
-          <p> <Link to="/Signup" >Sign Up!</Link></p>
+          <p> <Link to="/Signup" >Sign Up!</Link> </p>
+          <p><Link to="/ForgotPassword" >Forgot Password</Link></p>
         </div>
         <button>
           <Link to="/">Login</Link>

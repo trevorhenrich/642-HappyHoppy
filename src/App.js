@@ -37,7 +37,7 @@ function App() {
           <Route path="/ForgotPassword" element={<ForgotPassword />} />
           <Route path="/ProfileSettings" element={<ProfileSettings />} />
           <Route path="/MyDrinks" element={<MyDrinks />} />
-          <Route path="/DrinkProfile/:id" element={<DrinkProfile />} />
+          <Route path="/DrinkProfile/:id/:name" element={<DrinkProfile />} />
           <Route path="/Payment" element={<Payment />} />
           <Route path="/Delivery" element={<Delivery />} />
         </Routes>

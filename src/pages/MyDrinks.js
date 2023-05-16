@@ -14,7 +14,7 @@ export function MyDrinks() {
           <Grid container direction="column" alignItems="left" justifyContent="center">
               <Grid item padding={2}>
                 <Card> 
-                  <CardActionArea onClick={()=>navigate("/drinkprofile/1")}>
+                  <CardActionArea onClick={()=>navigate("/drinkprofile/1/Martini")}>
                   <Grid container direction="row" alignItems="left" >
                   <img src = "https://www.tasteofhome.com/wp-content/uploads/2018/03/Apple-Amaretto-Sours_EXPS_THCA18_188779_C01_23_3b.jpg?resize=100,100"></img>
                   <div classname="title" style={{fontSize : "x-large"}}>

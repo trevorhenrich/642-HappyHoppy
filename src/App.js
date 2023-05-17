@@ -30,7 +30,7 @@ const theme = createTheme({
 function App() {
   return (
     <>
-      <Box sx={{width: 500, position: "fixed"}}> 
+      <Box> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
